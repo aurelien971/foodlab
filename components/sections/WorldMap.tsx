@@ -71,7 +71,7 @@ export default function WorldMap() {
           {/* Right: map */}
           <div className="flex-1 min-w-0" style={{ lineHeight: 0 }}>
             <ComposableMap
-              projectionConfig={{ scale: 130, center: [10, 10] }}
+projectionConfig={{ scale: 130, center: [10 as any, 10 as any] }}
               viewBox="0 0 800 450"
               style={{ width: '100%', height: 'auto' }}
             >
